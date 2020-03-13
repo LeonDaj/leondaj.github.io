@@ -1,0 +1,180 @@
+@import url(assets/css/fontawesome-all.min.css);
+
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+.row.content {
+  height: 1500px
+}    
+
+/* Set gray background color and 100% height */
+.sidenav {
+  background-color: #f1f1f1;
+  height: 100%;
+}
+  
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
+    
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {
+    height: auto;
+  } 
+}
+
+
+/* From Sir Paul */
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+  .visible-desktop{
+    display:block;
+  }
+  .visible-phone{
+    display:none;
+  }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .visible-desktop{
+    display:block;
+  }
+  .visible-phone{
+    display:none;
+  }
+  .sidenav h1, .main-container h1 {
+    text-align: left !important;
+  }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  .visible-desktop{
+    display:none;
+  }
+  .visible-phone{
+    display:block;
+  }
+  .sidenav h1, .main-container h1 {
+    text-align: left !important;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+  @media (max-width: 767px) {
+  .visible-desktop{
+    display:none;
+  }
+  .visible-phone{
+    display:block;
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  .visible-desktop{
+    display:none;
+  }
+  .visible-phone{
+    display:block;
+  }
+}
+
+
+/* header */
+.header img {
+  width: 180px;
+  height: 180px;
+  margin-top: 10px;
+}
+
+.header header {
+  padding-top: 0rem;
+  padding-bottom: 1rem;
+  background-image: url(images/banner1.png);
+  color: #FFF;
+  margin-bottom: .5rem;
+}
+
+/* sidenav */
+.sidenav {
+  background-color: #DCDCDC;
+  color: #000;
+}
+
+.sidenav ul {
+  list-style: none;
+  line-height: 1.8;
+  font-size: 1.2em;
+}
+
+.sidenav h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.sidenav p {
+  font-size: 1.2em;
+}
+
+/* main-container */
+.main-container {
+  color: #000;
+  background-color: #F0F0F0;
+}
+
+.main-container h1 {
+  text-align: center;
+  color: #000;
+  font-size: 2em;
+}
+
+.main-container ul {
+  list-style: none;
+  margin-top: -15px;
+}
+
+.main-container h4, h5 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.main-container p {
+  margin-bottom: 0;
+}
+
+.skills li{
+  list-style: square;
+  line-height: 1.2;
+}
+
+.content {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* footer */
+.footer {
+  text-align:center;
+  background-color: #FFF;
+}
+
+.footer p {
+  margin-top: 16px;
+}
+
+a:hover, a:link {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.btn a {
+  color: #FFF;
+}
